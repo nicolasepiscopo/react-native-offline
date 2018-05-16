@@ -1,6 +1,6 @@
 /* @flow */
 
-import { put, select, call, take, cancelled, fork } from 'redux-saga/effects';
+import { put, select, call, take, cancelled, fork } from 'redux-saga';
 import { eventChannel } from 'redux-saga';
 import { NetInfo } from 'react-native';
 import checkInternetAccess from './checkInternetAccess';
